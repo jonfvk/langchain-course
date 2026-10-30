@@ -1,0 +1,31 @@
+{
+  "roles": ["software engineer", "site reliability engineer"],
+  "skills": ["Python", "cloud"],
+  "locations": ["remote"],
+  "preferred_companies": [],
+  "salary_preference": 0,
+  "threshold": 60,
+  "monthly_request_limit": 200,
+  "max_notifications": 5,
+  "digest": false,
+  "provider": "messages",
+  "notifications_enabled": false,
+  "destination": "",
+  "queries": [
+    "inurl:linkedin.com/posts hiring software engineer",
+    "site:linkedin.com/posts hiring site reliability engineer"
+  ],
+  "require_location_match": true,
+  "require_public_post": true,
+  "max_public_fetches": 10,
+  "query_settings": [
+    {
+      "engine": "google",
+      "date_filter": ""
+    },
+    {
+      "engine": "duckduckgo",
+      "date_filter": ""
+    }
+  ]
+}

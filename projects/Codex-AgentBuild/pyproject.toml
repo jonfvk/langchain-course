@@ -1,0 +1,14 @@
+[project]
+name = "sandbox-options-agent"
+version = "0.1.0"
+description = "Sandbox-only autonomous options paper-trading agent"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "keyring>=25,<26",
+    "certifi>=2024.2.2",
+    "websockets==16.1.1",
+    "langchain>=1.0,<2.0",
+    "langchain-openai>=1.0,<2.0",
+    "python-dotenv>=1.0,<2.0",
+]
